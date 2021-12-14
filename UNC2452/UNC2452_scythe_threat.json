@@ -259,9 +259,9 @@
                 "type": "message"
             },
             "30": {
-                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
-                "module": "run",
-                "request": "sc stop WinDefend",
+                "depends_on": "ed8a7322-630d-4cc1-b065-8c2361d9f45d",
+                "module": "upsh",
+                "request": "--cmd sc stop WinDefend",
                 "rtags": [
                     "att&ck-technique:T1562.001"
                 ],
